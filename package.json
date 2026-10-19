@@ -1,0 +1,17 @@
+{
+  "name": "knight-trials",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "《骑士试炼》- 骑士题材轻量 Roguelike 卡牌网页游戏",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "sim": "esbuild src/game/sim.ts --bundle --platform=node --format=esm --outfile=.sim.mjs --log-level=error && node .sim.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
