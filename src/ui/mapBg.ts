@@ -1,4 +1,4 @@
-/* 长地图节点布局：AI 拼接长图（ui-map-long.png）+ 离线检测的可放节点位。
+/* 长地图节点布局：AI 拼接长图（ui-map-long.webp）+ 离线检测的可放节点位。
    ROAD_SAMPLES 由 tools/stitch_map.py 生成：只含"确认在路面上"的位置（y 升序）。 */
 
 import { MAP_IMG_H, MAP_IMG_W, ROAD_SAMPLES } from './mapPath';

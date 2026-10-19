@@ -11,7 +11,7 @@ const attackCards: CardDef[] = [
     name: '冲锋',
     type: 'attack',
     cost: 1,
-    art: A + 'card-atk-charge.png',
+    art: A + 'card-atk-charge.webp',
     desc: '造成 3 点伤害。',
     play: (c) => {
       c.dealDamage(3);
@@ -22,7 +22,7 @@ const attackCards: CardDef[] = [
     name: '双重斩',
     type: 'attack',
     cost: 1,
-    art: A + 'card-atk-double-slash.png',
+    art: A + 'card-atk-double-slash.webp',
     desc: '造成 2 点伤害；若本回合先出过防御牌，再造成 2 点。',
     play: (c) => {
       c.dealDamage(2);
@@ -34,7 +34,7 @@ const attackCards: CardDef[] = [
     name: '连击',
     type: 'attack',
     cost: 1,
-    art: A + 'card-atk-combo.png',
+    art: A + 'card-atk-combo.webp',
     desc: '若本回合已出过 2 张牌，造成 4 点伤害；否则 2 点。',
     play: (c) => {
       c.dealDamage(c.cardsPlayed >= 2 ? 4 : 2);
@@ -45,7 +45,7 @@ const attackCards: CardDef[] = [
     name: '蓄力斩',
     type: 'attack',
     cost: 2,
-    art: A + 'card-atk-charged-slash.png',
+    art: A + 'card-atk-charged-slash.webp',
     desc: '造成 8 点伤害。',
     play: (c) => {
       c.dealDamage(8);
@@ -56,7 +56,7 @@ const attackCards: CardDef[] = [
     name: '破甲',
     type: 'attack',
     cost: 1,
-    art: A + 'card-atk-sunder.png',
+    art: A + 'card-atk-sunder.webp',
     desc: '移除敌人全部护甲，并造成 1 点伤害。',
     play: (c) => {
       if (c.enemy.armor > 0) {
@@ -71,7 +71,7 @@ const attackCards: CardDef[] = [
     name: '火把',
     type: 'attack',
     cost: 1,
-    art: A + 'card-atk-torch.png',
+    art: A + 'card-atk-torch.webp',
     desc: '造成 1 点伤害；敌人护甲在下个敌人回合失效。',
     play: (c) => {
       c.dealDamage(1);
@@ -84,7 +84,7 @@ const attackCards: CardDef[] = [
     name: '盾击',
     type: 'attack',
     cost: 1,
-    art: A + 'card-atk-shield-bash.png',
+    art: A + 'card-atk-shield-bash.webp',
     desc: '造成等于当前护甲一半的伤害（向下取整）。',
     play: (c) => {
       c.dealDamage(Math.floor(c.player.armor / 2));
@@ -95,7 +95,7 @@ const attackCards: CardDef[] = [
     name: '猛击',
     type: 'attack',
     cost: 2,
-    art: A + 'card-atk-smash.png',
+    art: A + 'card-atk-smash.webp',
     desc: '造成 6 点伤害。',
     play: (c) => {
       c.dealDamage(6);
@@ -106,7 +106,7 @@ const attackCards: CardDef[] = [
     name: '回旋斩',
     type: 'attack',
     cost: 2,
-    art: A + 'card-atk-whirlwind.png',
+    art: A + 'card-atk-whirlwind.webp',
     desc: '造成 3 点伤害，抽 1 张牌。',
     play: (c) => {
       c.dealDamage(3);
@@ -118,7 +118,7 @@ const attackCards: CardDef[] = [
     name: '处决',
     type: 'attack',
     cost: 2,
-    art: A + 'card-atk-execute.png',
+    art: A + 'card-atk-execute.webp',
     desc: '若敌人生命 ≤ 6，造成 10 点伤害；否则 3 点。',
     play: (c) => {
       const lethal = c.enemy.hp <= 6;
@@ -136,7 +136,7 @@ const defenseCards: CardDef[] = [
     name: '盾墙',
     type: 'defense',
     cost: 1,
-    art: A + 'card-def-shield-wall.png',
+    art: A + 'card-def-shield-wall.webp',
     desc: '获得 3 点护甲。',
     play: (c) => {
       c.gainArmor(3);
@@ -147,7 +147,7 @@ const defenseCards: CardDef[] = [
     name: '坚守',
     type: 'defense',
     cost: 1,
-    art: A + 'card-def-hold-line.png',
+    art: A + 'card-def-hold-line.webp',
     desc: '获得 5 点护甲；本回合不能攻击。',
     play: (c) => {
       c.gainArmor(5);
@@ -160,7 +160,7 @@ const defenseCards: CardDef[] = [
     name: '反击',
     type: 'defense',
     cost: 1,
-    art: A + 'card-def-riposte.png',
+    art: A + 'card-def-riposte.webp',
     desc: '本回合受到攻击时，对敌人造成 3 点伤害。',
     play: (c) => {
       c.riposte += 3;
@@ -172,7 +172,7 @@ const defenseCards: CardDef[] = [
     name: '骑士誓言',
     type: 'defense',
     cost: 1,
-    art: A + 'card-def-oath.png',
+    art: A + 'card-def-oath.webp',
     desc: '若生命 ≤ 10，获得 6 点护甲；否则获得 3 点护甲。',
     play: (c) => {
       c.gainArmor(c.player.hp <= 10 ? 6 : 3);
@@ -183,7 +183,7 @@ const defenseCards: CardDef[] = [
     name: '铁壁',
     type: 'defense',
     cost: 2,
-    art: A + 'card-def-bulwark.png',
+    art: A + 'card-def-bulwark.webp',
     desc: '获得 8 点护甲。',
     play: (c) => {
       c.gainArmor(8);
@@ -194,7 +194,7 @@ const defenseCards: CardDef[] = [
     name: '闪避',
     type: 'defense',
     cost: 0,
-    art: A + 'card-def-dodge.png',
+    art: A + 'card-def-dodge.webp',
     desc: '获得 2 点护甲，抽 1 张牌。',
     play: (c) => {
       c.gainArmor(2);
@@ -211,7 +211,7 @@ const utilityCards: CardDef[] = [
     name: '集结',
     type: 'utility',
     cost: 1,
-    art: A + 'card-utl-rally.png',
+    art: A + 'card-utl-rally.webp',
     desc: '抽 1 张牌。',
     play: (c) => {
       c.draw(1);
@@ -222,7 +222,7 @@ const utilityCards: CardDef[] = [
     name: '治疗',
     type: 'utility',
     cost: 1,
-    art: A + 'card-utl-heal.png',
+    art: A + 'card-utl-heal.webp',
     desc: '恢复 4 点生命。',
     play: (c) => {
       c.heal(4);
@@ -233,7 +233,7 @@ const utilityCards: CardDef[] = [
     name: '能量药剂',
     type: 'utility',
     cost: 0,
-    art: A + 'card-utl-energy.png',
+    art: A + 'card-utl-energy.webp',
     desc: '获得 1 点能量（本回合有效）。',
     play: (c) => {
       c.gainEnergy(1);
@@ -244,7 +244,7 @@ const utilityCards: CardDef[] = [
     name: '磨刀',
     type: 'utility',
     cost: 1,
-    art: A + 'card-utl-whetstone.png',
+    art: A + 'card-utl-whetstone.webp',
     desc: '本回合攻击牌伤害 +2。',
     play: (c) => {
       c.dmgBonus += 2;
@@ -256,7 +256,7 @@ const utilityCards: CardDef[] = [
     name: '号令',
     type: 'utility',
     cost: 1,
-    art: A + 'card-utl-command.png',
+    art: A + 'card-utl-command.webp',
     desc: '本回合第一张攻击牌费用 -1。',
     play: (c) => {
       c.firstAttackDiscount = true;
@@ -268,7 +268,7 @@ const utilityCards: CardDef[] = [
     name: '战术准备',
     type: 'utility',
     cost: 1,
-    art: A + 'card-utl-tactics.png',
+    art: A + 'card-utl-tactics.webp',
     desc: '抽 2 张牌，然后弃 1 张牌。',
     play: (c) => {
       c.draw(2);
@@ -280,7 +280,7 @@ const utilityCards: CardDef[] = [
     name: '鼓舞',
     type: 'utility',
     cost: 0,
-    art: A + 'card-utl-inspire.png',
+    art: A + 'card-utl-inspire.webp',
     desc: '获得 2 点护甲，抽 1 张牌。',
     play: (c) => {
       c.gainArmor(2);
@@ -292,7 +292,7 @@ const utilityCards: CardDef[] = [
     name: '骑士徽记',
     type: 'utility',
     cost: 2,
-    art: A + 'card-utl-crest.png',
+    art: A + 'card-utl-crest.webp',
     desc: '最大生命 +3，并恢复 3 点生命。',
     play: (c) => {
       c.player.maxHp += 3;
@@ -310,7 +310,7 @@ const attackCards2: CardDef[] = [
     name: '烈焰斩',
     type: 'attack',
     cost: 2,
-    art: A + 'card-atk-flame-slash.png',
+    art: A + 'card-atk-flame-slash.webp',
     desc: '造成 5 点伤害，无视护甲。',
     play: (c) => {
       c.dealDamage(5, { ignoreArmor: true });
@@ -321,7 +321,7 @@ const attackCards2: CardDef[] = [
     name: '重锤',
     type: 'attack',
     cost: 2,
-    art: A + 'card-atk-heavy-blow.png',
+    art: A + 'card-atk-heavy-blow.webp',
     desc: '造成 4 点伤害，并移除敌人 4 点护甲。',
     play: (c) => {
       c.enemy.armor = Math.max(0, c.enemy.armor - 4);
@@ -333,7 +333,7 @@ const attackCards2: CardDef[] = [
     name: '碎甲击',
     type: 'attack',
     cost: 1,
-    art: A + 'card-atk-shatter.png',
+    art: A + 'card-atk-shatter.webp',
     desc: '造成 2 点伤害；若敌人有护甲，改为造成 5 点伤害。',
     play: (c) => {
       c.dealDamage(c.enemy.armor > 0 ? 5 : 2);
@@ -349,7 +349,7 @@ const defenseCards2: CardDef[] = [
     name: '荆棘盾',
     type: 'defense',
     cost: 1,
-    art: A + 'card-def-thorn-shield.png',
+    art: A + 'card-def-thorn-shield.webp',
     desc: '获得 4 点护甲；本回合受到攻击时对敌人造成 2 点伤害。',
     play: (c) => {
       c.gainArmor(4);
@@ -362,7 +362,7 @@ const defenseCards2: CardDef[] = [
     name: '圣盾',
     type: 'defense',
     cost: 2,
-    art: A + 'card-def-holy-ward.png',
+    art: A + 'card-def-holy-ward.webp',
     desc: '获得 6 点护甲，恢复 2 点生命。',
     play: (c) => {
       c.gainArmor(6);
@@ -379,7 +379,7 @@ const utilityCards2: CardDef[] = [
     name: '迅捷',
     type: 'utility',
     cost: 1,
-    art: A + 'card-utl-swiftness.png',
+    art: A + 'card-utl-swiftness.webp',
     desc: '抽 2 张牌。',
     play: (c) => {
       c.draw(2);
@@ -390,7 +390,7 @@ const utilityCards2: CardDef[] = [
     name: '圣光',
     type: 'utility',
     cost: 2,
-    art: A + 'card-utl-holy-light.png',
+    art: A + 'card-utl-holy-light.webp',
     desc: '恢复 8 点生命。',
     play: (c) => {
       c.heal(8);
@@ -401,7 +401,7 @@ const utilityCards2: CardDef[] = [
     name: '血怒',
     type: 'utility',
     cost: 0,
-    art: A + 'card-utl-blood-rage.png',
+    art: A + 'card-utl-blood-rage.webp',
     desc: '失去 2 点生命，本回合攻击牌伤害 +3。',
     play: (c) => {
       c.player.hp = Math.max(1, c.player.hp - 2);

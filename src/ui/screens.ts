@@ -32,7 +32,7 @@ function startScreen(): string {
   const s = game.save;
   return `
   <div class="screen screen-start">
-    <img class="bg" src="${UI}ui-bg-start.png" alt="" />
+    <img class="bg" src="${UI}ui-bg-start.webp" alt="" />
     <div class="start-inner">
       <div class="title-block">
         <h1 class="game-title">骑士试炼</h1>
@@ -87,7 +87,7 @@ function mapScreen(): string {
       ${relicStripHTML(run.relics)}
       <div class="map-scroll">
         <div class="path-track" style="aspect-ratio:${L.w} / ${L.h};">
-          <img class="map-img" src="${UI}ui-map-long.png" alt="" />
+          <img class="map-img" src="${UI}ui-map-long.webp" alt="" />
           ${nodes}
           <div class="path-castle-tag">堕落骑士的城堡 👑</div>
           <div class="path-start">起点 · 出发！</div>
@@ -128,7 +128,7 @@ function battleScreen(): string {
 
   return `
   <div class="screen screen-battle">
-    <img class="bg bg-battle" src="${UI}ui-bg-battle.png" alt="" />
+    <img class="bg bg-battle" src="${UI}ui-bg-battle.webp" alt="" />
     <div class="battle-inner">
       <header class="top-bar">
         <span class="node-tag">节点 ${run.nodeIndex + 1} / ${run.map.length}</span>

@@ -5,168 +5,168 @@
       "name": "冲锋",
       "meta": "攻击 · 1费",
       "effect": "造成 3 点伤害",
-      "file": "cards/card-atk-charge.png"
+      "file": "cards/card-atk-charge.webp"
     },
     {
       "id": "double-slash",
       "name": "双重斩",
       "meta": "攻击 · 1费",
       "effect": "造成 2 点伤害；若本回合先出过防御牌，再造成 2 点",
-      "file": "cards/card-atk-double-slash.png"
+      "file": "cards/card-atk-double-slash.webp"
     },
     {
       "id": "combo",
       "name": "连击",
       "meta": "攻击 · 1费",
       "effect": "若本回合已出过 2 张牌，造成 4 点伤害；否则 2 点",
-      "file": "cards/card-atk-combo.png"
+      "file": "cards/card-atk-combo.webp"
     },
     {
       "id": "charged-slash",
       "name": "蓄力斩",
       "meta": "攻击 · 2费",
       "effect": "造成 8 点伤害",
-      "file": "cards/card-atk-charged-slash.png"
+      "file": "cards/card-atk-charged-slash.webp"
     },
     {
       "id": "sunder",
       "name": "破甲",
       "meta": "攻击 · 1费",
       "effect": "移除敌人全部护甲，并造成 1 点伤害",
-      "file": "cards/card-atk-sunder.png"
+      "file": "cards/card-atk-sunder.webp"
     },
     {
       "id": "torch",
       "name": "火把",
       "meta": "攻击 · 1费",
       "effect": "造成 1 点伤害；敌人护甲在下个敌人回合失效",
-      "file": "cards/card-atk-torch.png"
+      "file": "cards/card-atk-torch.webp"
     },
     {
       "id": "shield-bash",
       "name": "盾击",
       "meta": "攻击 · 1费",
       "effect": "造成等于当前护甲一半的伤害（向下取整）",
-      "file": "cards/card-atk-shield-bash.png"
+      "file": "cards/card-atk-shield-bash.webp"
     },
     {
       "id": "smash",
       "name": "猛击",
       "meta": "攻击 · 2费",
       "effect": "造成 6 点伤害",
-      "file": "cards/card-atk-smash.png"
+      "file": "cards/card-atk-smash.webp"
     },
     {
       "id": "whirlwind",
       "name": "回旋斩",
       "meta": "攻击 · 2费",
       "effect": "造成 3 点伤害，抽 1 张牌",
-      "file": "cards/card-atk-whirlwind.png"
+      "file": "cards/card-atk-whirlwind.webp"
     },
     {
       "id": "execute",
       "name": "处决",
       "meta": "攻击 · 2费",
       "effect": "若敌人生命 ≤ 6，造成 10 点伤害；否则 3 点",
-      "file": "cards/card-atk-execute.png"
+      "file": "cards/card-atk-execute.webp"
     },
     {
       "id": "shield-wall",
       "name": "盾墙",
       "meta": "防御 · 1费",
       "effect": "获得 3 点护甲",
-      "file": "cards/card-def-shield-wall.png"
+      "file": "cards/card-def-shield-wall.webp"
     },
     {
       "id": "hold-line",
       "name": "坚守",
       "meta": "防御 · 1费",
       "effect": "获得 5 点护甲；本回合不能攻击",
-      "file": "cards/card-def-hold-line.png"
+      "file": "cards/card-def-hold-line.webp"
     },
     {
       "id": "riposte",
       "name": "反击",
       "meta": "防御 · 1费",
       "effect": "本回合受到攻击时，对敌人造成 3 点伤害",
-      "file": "cards/card-def-riposte.png"
+      "file": "cards/card-def-riposte.webp"
     },
     {
       "id": "oath",
       "name": "骑士誓言",
       "meta": "防御 · 1费",
       "effect": "若生命 ≤ 10 获得 6 点护甲，否则 3 点",
-      "file": "cards/card-def-oath.png"
+      "file": "cards/card-def-oath.webp"
     },
     {
       "id": "bulwark",
       "name": "铁壁",
       "meta": "防御 · 2费",
       "effect": "获得 8 点护甲",
-      "file": "cards/card-def-bulwark.png"
+      "file": "cards/card-def-bulwark.webp"
     },
     {
       "id": "dodge",
       "name": "闪避",
       "meta": "防御 · 0费",
       "effect": "获得 2 点护甲，抽 1 张牌",
-      "file": "cards/card-def-dodge.png"
+      "file": "cards/card-def-dodge.webp"
     },
     {
       "id": "rally",
       "name": "集结",
       "meta": "功能 · 1费",
       "effect": "抽 1 张牌",
-      "file": "cards/card-utl-rally.png"
+      "file": "cards/card-utl-rally.webp"
     },
     {
       "id": "heal",
       "name": "治疗",
       "meta": "功能 · 1费",
       "effect": "恢复 4 点生命",
-      "file": "cards/card-utl-heal.png"
+      "file": "cards/card-utl-heal.webp"
     },
     {
       "id": "energy",
       "name": "能量药剂",
       "meta": "功能 · 0费",
       "effect": "获得 1 点能量（本回合有效）",
-      "file": "cards/card-utl-energy.png"
+      "file": "cards/card-utl-energy.webp"
     },
     {
       "id": "whetstone",
       "name": "磨刀",
       "meta": "功能 · 1费",
       "effect": "本回合攻击牌伤害 +2",
-      "file": "cards/card-utl-whetstone.png"
+      "file": "cards/card-utl-whetstone.webp"
     },
     {
       "id": "command",
       "name": "号令",
       "meta": "功能 · 1费",
       "effect": "本回合第一张攻击牌费用 -1",
-      "file": "cards/card-utl-command.png"
+      "file": "cards/card-utl-command.webp"
     },
     {
       "id": "tactics",
       "name": "战术准备",
       "meta": "功能 · 1费",
       "effect": "抽 2 张牌，然后弃 1 张牌",
-      "file": "cards/card-utl-tactics.png"
+      "file": "cards/card-utl-tactics.webp"
     },
     {
       "id": "inspire",
       "name": "鼓舞",
       "meta": "功能 · 0费",
       "effect": "获得 2 点护甲，抽 1 张牌",
-      "file": "cards/card-utl-inspire.png"
+      "file": "cards/card-utl-inspire.webp"
     },
     {
       "id": "crest",
       "name": "骑士徽记",
       "meta": "功能 · 2费",
       "effect": "最大生命 +3，并恢复 3 点生命",
-      "file": "cards/card-utl-crest.png"
+      "file": "cards/card-utl-crest.webp"
     }
   ],
   "enemies": [
@@ -175,63 +175,63 @@
       "name": "哥布林",
       "meta": "生命 12",
       "effect": "攻击 4 → 防御 3",
-      "file": "enemies/enemy-goblin.png"
+      "file": "enemies/enemy-goblin.webp"
     },
     {
       "id": "wolf",
       "name": "狼",
       "meta": "生命 10",
       "effect": "攻击 3 → 攻击 5",
-      "file": "enemies/enemy-wolf.png"
+      "file": "enemies/enemy-wolf.webp"
     },
     {
       "id": "archer",
       "name": "弓箭手",
       "meta": "生命 14",
       "effect": "攻击 5 → 蓄力 → 攻击 7",
-      "file": "enemies/enemy-archer.png"
+      "file": "enemies/enemy-archer.webp"
     },
     {
       "id": "shieldman",
       "name": "盾兵",
       "meta": "生命 18",
       "effect": "防御 6 → 攻击 4",
-      "file": "enemies/enemy-shieldman.png"
+      "file": "enemies/enemy-shieldman.webp"
     },
     {
       "id": "mage",
       "name": "法师",
       "meta": "生命 16",
       "effect": "攻击 7 → 削弱（玩家下回合少 1 能量）",
-      "file": "enemies/enemy-mage.png"
+      "file": "enemies/enemy-mage.webp"
     },
     {
       "id": "berserker",
       "name": "狂战士",
       "meta": "生命 20",
       "effect": "攻击 6 → 自伤 2 并攻击 8",
-      "file": "enemies/enemy-berserker.png"
+      "file": "enemies/enemy-berserker.webp"
     },
     {
       "id": "assassin",
       "name": "刺客",
       "meta": "生命 12",
       "effect": "攻击 8 → 防御 2",
-      "file": "enemies/enemy-assassin.png"
+      "file": "enemies/enemy-assassin.webp"
     },
     {
       "id": "gargoyle",
       "name": "石像鬼",
       "meta": "生命 22",
       "effect": "防御 8 → 攻击 5",
-      "file": "enemies/enemy-gargoyle.png"
+      "file": "enemies/enemy-gargoyle.webp"
     },
     {
       "id": "boss-fallen-knight",
       "name": "Boss · 堕落骑士",
       "meta": "生命 40",
       "effect": "攻击 8 → 防御 6 → 蓄力 → 攻击 14",
-      "file": "enemies/enemy-boss-fallen-knight.png"
+      "file": "enemies/enemy-boss-fallen-knight.webp"
     }
   ],
   "relics": [
@@ -240,56 +240,56 @@
       "name": "铁盾",
       "meta": "遗物",
       "effect": "每场战斗第一回合获得 3 点护甲",
-      "file": "relics/relic-iron-shield.png"
+      "file": "relics/relic-iron-shield.webp"
     },
     {
       "id": "whetstone",
       "name": "磨刀石",
       "meta": "遗物",
       "effect": "每场战斗第一张攻击牌 +2 伤害",
-      "file": "relics/relic-whetstone.png"
+      "file": "relics/relic-whetstone.webp"
     },
     {
       "id": "first-aid",
       "name": "急救包",
       "meta": "遗物",
       "effect": "每场战斗结束后恢复 3 点生命",
-      "file": "relics/relic-first-aid.png"
+      "file": "relics/relic-first-aid.webp"
     },
     {
       "id": "war-banner",
       "name": "战旗",
       "meta": "遗物",
       "effect": "每回合第一张防御牌费用 -1",
-      "file": "relics/relic-war-banner.png"
+      "file": "relics/relic-war-banner.webp"
     },
     {
       "id": "knight-badge",
       "name": "骑士徽章",
       "meta": "遗物",
       "effect": "最大生命 +5",
-      "file": "relics/relic-knight-badge.png"
+      "file": "relics/relic-knight-badge.webp"
     },
     {
       "id": "torch",
       "name": "火把遗物",
       "meta": "遗物",
       "effect": "每场战斗第一回合多抽 1 张牌",
-      "file": "relics/relic-torch.png"
+      "file": "relics/relic-torch.webp"
     },
     {
       "id": "bracer",
       "name": "护腕",
       "meta": "遗物",
       "effect": "每回合第一次攻击 +1 伤害",
-      "file": "relics/relic-bracer.png"
+      "file": "relics/relic-bracer.webp"
     },
     {
       "id": "old-map",
       "name": "旧地图",
       "meta": "遗物",
       "effect": "事件节点多一个选项",
-      "file": "relics/relic-old-map.png"
+      "file": "relics/relic-old-map.webp"
     }
   ],
   "ui": [
@@ -298,56 +298,56 @@
       "name": "开始页背景",
       "meta": "UI · 1024x1536",
       "effect": "开始页/主界面背景",
-      "file": "ui/ui-bg-start.png"
+      "file": "ui/ui-bg-start.webp"
     },
     {
       "id": "bg-battle",
       "name": "战斗页背景",
       "meta": "UI · 1024x1536",
       "effect": "战斗场景背景",
-      "file": "ui/ui-bg-battle.png"
+      "file": "ui/ui-bg-battle.webp"
     },
     {
       "id": "bg-map",
       "name": "路线页背景",
       "meta": "UI · 1024x1536",
       "effect": "节点选择地图背景",
-      "file": "ui/ui-bg-map.png"
+      "file": "ui/ui-bg-map.webp"
     },
     {
       "id": "card-back",
       "name": "卡牌背面",
       "meta": "UI · 1024x1536",
       "effect": "牌堆/卡背",
-      "file": "ui/ui-card-back.png"
+      "file": "ui/ui-card-back.webp"
     },
     {
       "id": "card-frame",
       "name": "卡牌卡框",
       "meta": "UI · 1024x1536",
       "effect": "空白卡框，供代码叠加插画与文字",
-      "file": "ui/ui-card-frame.png"
+      "file": "ui/ui-card-frame.webp"
     },
     {
       "id": "icon-energy",
       "name": "能量图标",
       "meta": "UI · 1024x1024",
       "effect": "能量指示",
-      "file": "ui/ui-icon-energy.png"
+      "file": "ui/ui-icon-energy.webp"
     },
     {
       "id": "icon-heart",
       "name": "血量图标",
       "meta": "UI · 1024x1024",
       "effect": "生命值指示",
-      "file": "ui/ui-icon-heart.png"
+      "file": "ui/ui-icon-heart.webp"
     },
     {
       "id": "icon-shield",
       "name": "护甲图标",
       "meta": "UI · 1024x1024",
       "effect": "护甲值指示",
-      "file": "ui/ui-icon-shield.png"
+      "file": "ui/ui-icon-shield.webp"
     }
   ]
 }
